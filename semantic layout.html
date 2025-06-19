@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      header {
+        background-color: pink;
+        padding: 30px 15px;
+      }
+      nav {
+        background-color: teal;
+        padding: 15px;
+      }
+      main {
+        background-color: gray;
+        overflow: hidden;
+      }
+      footer {
+        background-color: blueviolet;
+        padding: 20px 15px;
+      }
+
+      .content {
+        background-color: tomato;
+        width: 70%;
+        float: left;
+      }
+      aside {
+        background-color: greenyellow;
+        width: 30%;
+        float: left;
+        height: 300px;
+      }
+      section {
+        background-color: bisque;
+        height: 100px;
+        margin: 10px;
+      }
+      article {
+        background-color: brown;
+        height: 200px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Header</header>
+    <nav>Nav</nav>
+    <main>
+      <div class="content">
+        <section>Section</section>
+        <article>Article</article>
+      </div>
+
+      <aside>Aside</aside>
+    </main>
+    <footer>Footer</footer>
+  </body>
+</html>
